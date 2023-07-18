@@ -8,9 +8,10 @@ setup(
         'numpy',
         'matplotlib',
     ],
+
     entry_points={
         'console_scripts': [
-            'astroviewer=astroviewer:main',
+            'astroviewer = astroviewer:main',
         ],
     },
 )
